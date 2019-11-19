@@ -4,5 +4,9 @@ object FizzBuzz {
     number % 3 == 0
   }
 
+  def isDivisibleBy5(number: Int): Boolean = {
+    number % 5 == 0
+  }
+
 
 }
