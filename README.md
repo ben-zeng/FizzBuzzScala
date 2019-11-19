@@ -8,4 +8,4 @@ TDD FizzBuzz Kata with Scala
 - `$ cd FizzBuzzScala`
 - `$ sbt test`
 
-![Test_1](./readme_images/test_demo.png ) 
+![Test_1](./readme_images/test_demo_1.png ) 
