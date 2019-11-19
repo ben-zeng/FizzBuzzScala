@@ -12,6 +12,10 @@ object FizzBuzz {
     isDivisibleBy3(number) && isDivisibleBy5(number)
   }
 
+  def result(number: Int): String = {
+    val result = if (isDivisibleBy15(number)) "FizzBuzz" else number.toString
+    result
+  }
 
 
 
