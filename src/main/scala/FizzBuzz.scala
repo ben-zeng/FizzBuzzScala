@@ -8,6 +8,10 @@ object FizzBuzz {
     number % 5 == 0
   }
 
+  def isDivisibleBy15(number: Int): Boolean = {
+    isDivisibleBy3(number) && isDivisibleBy5(number)
+  }
+
 
 
 
