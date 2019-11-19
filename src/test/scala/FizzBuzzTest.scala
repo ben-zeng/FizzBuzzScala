@@ -19,6 +19,15 @@ class FizzBuzzTest extends FunSpec{
     }
   }
 
+  describe("#isDivisibleBy15") {
+    it("returns true if divisible by 15") {
+      assert(FizzBuzz.isDivisibleBy15(15) === true)
+    }
+    it("returns false if not divisible by 15") {
+      assert(FizzBuzz.isDivisibleBy15(7) === false)
+    }
+  }
+
 
 
 
