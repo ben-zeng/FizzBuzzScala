@@ -28,6 +28,15 @@ class FizzBuzzTest extends FunSpec{
     }
   }
 
+  describe("#result") {
+    it("returns FizzBuzz if divisible by 15") {
+      assert(FizzBuzz.result(30) === "FizzBuzz")
+    }
+    it("returns false if not divisible by 15") {
+      assert(FizzBuzz.isDivisibleBy15(7) === false)
+    }
+  }
+
 
 
 
