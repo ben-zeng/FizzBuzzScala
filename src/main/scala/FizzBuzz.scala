@@ -1,8 +1,8 @@
 object FizzBuzz {
-  def result(number: Int): String = {
-    if (number == 3)
-      "Fizz"
-    else
-      number.toString
+
+  def isDivisibleBy3(number: Int): Boolean = {
+    number % 3 == 0
   }
+
+
 }

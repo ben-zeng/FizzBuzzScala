@@ -1,12 +1,13 @@
 import org.scalatest.FunSpec
 
 class FizzBuzzTest extends FunSpec{
-  describe("#result") {
-    it("should return 'fizz' when number is 3") {
-      assert(FizzBuzz.result(3) === "Fizz")
+  describe("#isDivisibleBy3") {
+    it("returns true if divisible by 3") {
+      assert(FizzBuzz.isDivisibleBy3(6) === true)
     }
-    it("should return the same number when number is not 3") {
-      assert(FizzBuzz.result(5) === "5")
+    it("returns false if not divisible by 3") {
+      assert(FizzBuzz.isDivisibleBy3(5) === false)
     }
   }
+
 }
